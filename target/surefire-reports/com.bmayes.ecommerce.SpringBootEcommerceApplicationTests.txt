@@ -1,9 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.bmayes.ecommerce.SpringBootEcommerceApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.502 s <<< FAILURE! - in com.bmayes.ecommerce.SpringBootEcommerceApplicationTests
-contextLoads  Time elapsed: 0.002 s  <<< ERROR!
-java.lang.IllegalStateException: Failed to load ApplicationContext
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myAppConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'allowed.origins' in value "${allowed.origins}"
-Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'allowed.origins' in value "${allowed.origins}"
-
