@@ -1,0 +1,1 @@
+web: java $JAVA_OPTS -jar target/spring-boot-ecommerce-0.0.1-SNAPSHOT.jar --server.port=$PORT
